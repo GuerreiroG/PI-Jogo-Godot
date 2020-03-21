@@ -1,0 +1,241 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Jogador/player.png" type="Texture" id=1]
+[ext_resource path="res://Jogador/Jogador.gd" type="Script" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "andarbaixo"
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 0, 1 ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "andarcima"
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 2, 3 ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "andardireita"
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 4, 5 ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "andaresquerda"
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 6, 7 ]
+}
+
+[sub_resource type="Animation" id=5]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 1 ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "idlecima"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 3 ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "idledireita"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 5 ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "idleesquerda"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 7 ]
+}
+
+[sub_resource type="Animation" id=9]
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 8, 9 ]
+}
+
+[sub_resource type="Animation" id=10]
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 10, 11 ]
+}
+
+[sub_resource type="Animation" id=11]
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 12, 13 ]
+}
+
+[sub_resource type="Animation" id=12]
+loop = true
+step = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 14, 15 ]
+}
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 241.606, 147.141 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 5.55152, 6.03061 )
+
+[node name="Jogador" type="KinematicBody2D"]
+position = Vector2( 53.2069, 48.6787 )
+script = ExtResource( 2 )
+velocidade = 70
+
+[node name="anim" type="AnimationPlayer" parent="."]
+playback_speed = 3.0
+anims/andarbaixo = SubResource( 1 )
+anims/andarcima = SubResource( 2 )
+anims/andardireita = SubResource( 3 )
+anims/andaresquerda = SubResource( 4 )
+anims/idlebaixo = SubResource( 5 )
+anims/idlecima = SubResource( 6 )
+anims/idledireita = SubResource( 7 )
+anims/idleesquerda = SubResource( 8 )
+anims/pushbaixo = SubResource( 9 )
+anims/pushcima = SubResource( 10 )
+anims/pushdireita = SubResource( 11 )
+anims/pushesquerda = SubResource( 12 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 8.7261, 16.6152 )
+scale = Vector2( 0.97477, 0.968257 )
+texture = ExtResource( 1 )
+vframes = 2
+hframes = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 8.87535, 20.0261 )
+scale = Vector2( 0.0277181, 0.0306785 )
+shape = SubResource( 13 )
+
+[node name="hitbox" type="Area2D" parent="."]
+position = Vector2( -0.7547, -0.754704 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2( 9.50362, 19.7931 )
+shape = SubResource( 14 )
